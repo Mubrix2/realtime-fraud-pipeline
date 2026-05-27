@@ -1,0 +1,7 @@
+[FINTECH DATA COMPLIANCE BOUNDARY]
+Download the open-source synthetic financial data CSV files 
+(such as the Kaggle "Synthetic Financial Datasets For Fraud Detection") 
+and save the unzipped file in this directory as:
+-> data/PS_20174392719_1491204439457_log.csv
+
+Files placed within this folder boundary are automatically ignored by Git.
