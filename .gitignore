@@ -1,10 +1,33 @@
+# Local Python Environment & Execution Caches
 venv/
-*.pyc
+.venv/
+env/
 __pycache__/
-.DS_Store
-.env
+*.pyc
+*.pyo
+*.pyd
 .pytest_cache/
-EOF
+.coverage
+htmlcov/
+
+# Sensitive Environment Configurations & Deployment Secrets
+.env
+.env.local
+.env.*.local
+
+# Machine Learning Binaries & Serialized Model Artifacts Block
+artifacts/*
+!artifacts/.artifacts.example
+
+# Large Static Datasets & Raw Input Training Files Block
+data/*
+!data/.data.example
+
+# IDE Workspace & Operating System Overhead Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
